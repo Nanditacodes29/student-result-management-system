@@ -169,6 +169,3 @@ VIT Vellore
 
 ---
 
-## ⭐ Project Status
-
-✅ Completed and Published on GitHub
