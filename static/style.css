@@ -1,0 +1,187 @@
+/* ===== GENERAL PAGE ===== */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F2E6B1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ===== NAVIGATION BAR ===== */
+
+nav{
+    background-color: #F28695;
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: #F2E6B1;
+}
+
+/* ===== HEADINGS ===== */
+
+h1{
+    color: #F28695;
+    margin-top: 30px;
+}
+
+p{
+    color: #555;
+}
+
+/* ===== FORMS ===== */
+
+form{
+    background-color: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ===== INPUT BOXES ===== */
+
+input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #F2BFB4;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* ===== BUTTONS ===== */
+
+button{
+    background-color: #F28695;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #F2BFB4;
+}
+
+/* ===== TABLES ===== */
+
+table{
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 85%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+th{
+    background-color: #F28695;
+    color: white;
+    padding: 15px;
+}
+
+td{
+    padding: 12px;
+}
+
+tr:nth-child(even){
+    background-color: #FFF5F5;
+}
+
+th{
+    background-color: #F28695;
+    color: white;
+}
+
+th, td{
+    padding: 12px;
+    border: 1px solid #F2BFB4;
+}
+
+/* ===== HORIZONTAL LINE ===== */
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #F2BFB4;
+}
+
+/* ===== LOGIN PAGE TITLE ===== */
+
+.login-title{
+    margin-top: 80px;
+    font-size: 32px;
+}
+
+/* DASHBOARD */
+
+.dashboard-card{
+    margin-top: 40px;
+}
+
+.dashboard-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card{
+    text-decoration: none;
+    background: white;
+    color: #F28695;
+    width: 180px;
+    padding: 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+/* LOGIN PAGE */
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.login-title{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin:30px;
+}
+
+.stat-card{
+    background:white;
+    padding:20px;
+    width:180px;
+    border-radius:15px;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.1);
+    font-weight:bold;
+}

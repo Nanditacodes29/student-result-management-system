@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+{% include 'navbar.html' %}
+
+<div class="dashboard-card">
+
+    <h1>📚 Student Result Management System</h1>
+
+    <p>Welcome Admin 🌸</p>
+    <div class="stats">
+
+    <div class="stat-card">
+        👩‍🎓 Students<br>
+        {{ student_count }}
+    </div>
+
+    <div class="stat-card">
+        📝 Marks Entries<br>
+        {{ marks_count }}
+    </div>
+
+</div>
+
+    <div class="dashboard-links">
+
+        <a href="/add_student" class="card">
+            ➕ Add Student
+        </a>
+
+        <a href="/view_students" class="card">
+            👩‍🎓 View Students
+        </a>
+
+        <a href="/marks_entry" class="card">
+            📝 Enter Marks
+        </a>
+
+        <a href="/results" class="card">
+            🎓 Results
+        </a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
